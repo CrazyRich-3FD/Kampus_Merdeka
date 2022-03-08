@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EAEDED;
+}
+
+h1 {
+    text-align: center;
+    margin: 2% auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    font-size: 1.3em;
+    font-family: 'Fredoka', sans-serif;
+}
+
+th,
+td {
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+th {
+    background: rgba(190, 174, 29, 0.822);
+    color: white;
+}
+
+.celLeft {
+    width: 25%;
+}
+
+.celMiddle {
+    width: 15%;
+}
+
+.celRight {
+    width: 60%;
+}
+
+.celCenter {
+    text-align: center;
+}
+
+
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+    background-color: #CACFD2;
+    cursor: default;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #A6ACAF;
+}
+
+tbody tr:hover {
+    background-color: #E6E6E6;
+}
